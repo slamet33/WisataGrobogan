@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.id.iu33.android.wisatagrobogan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wisata Grobogan"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="co.id.iu33.android.wisatagrobogan.SplashActivity"
+            android:label="Wisata Grobogan"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="co.id.iu33.android.wisatagrobogan.MainActivity"
+            android:label="Wisata Grobogan" />
+        <activity
+            android:name="co.id.iu33.android.wisatagrobogan.Main3Activity"
+            android:label="Daftar Tempat Wisata" />
+        <activity
+            android:name="co.id.iu33.android.wisatagrobogan.DetailWisata"
+            android:label="Detail Tempat Wisata"
+            android:parentActivityName="co.id.iu33.android.wisatagrobogan.Main3Activity" />
+        <activity
+            android:name="co.id.iu33.android.wisatagrobogan.Profil"
+            android:label="About Profil" />
+    </application>
+
+</manifest>

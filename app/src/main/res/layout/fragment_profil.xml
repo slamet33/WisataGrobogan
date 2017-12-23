@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="co.id.iu33.android.wisatagrobogan.Profil"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/profilbackground">
+
+        <ImageView
+            android:src="@drawable/profil"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            />
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Android Developer"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/cardview_dark_background" />
+       <TextView
+           android:gravity="center"
+           android:fontFamily="serif-monospace"
+           android:textSize="20dp"
+           android:text="Slamet Riyadi"
+           android:layout_width="match_parent"
+           android:layout_height="30dp"
+           android:textColor="@color/cardview_dark_background" />
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="v1.0"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+
+</FrameLayout>

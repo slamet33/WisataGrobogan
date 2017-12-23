@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">"Wisata Grobogan"</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="daftarwisata">Daftar Wisata</string>
+    <string name="profil">Profil Pengembang</string>
+    <string name="navigation_view_item_3">Daftar</string>
+    <string name="navigasi_kategori_2">Sub Item </string>
+    <string name="navkeluar">Keluar</string>
+    <string name="olele">Belajar Membuat Fragment
+Fagement yaitu  salah satu komponen pada android antar muka (User Interface) yang merupakan bagian dari activity biasanya disebut sub activity. Satu activity bisa menampilkan beberapa fragment, pada acitivity sebuah fragment dapat  diganti, ditambahkan  dan dihapus maksudnya dapat digunakan kembali.
+Sebelum memulai harus tahu 12 method dari fragment berikut :
+
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Selamat Datang di Wisata Grobogan</string>
+    <string name="tempatkuliner">Tempat Kuliner</string>
+
+
+</resources>
